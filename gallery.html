@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+       }
+
+       .header{
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           background-color: #333;
+           color: white;
+           text-align: center;
+           font-size: 16px;
+       }
+
+       .navbar{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           align-content: center;
+           align-items: center;
+           height: 50px;
+           background-color: #3c97d4;
+           padding: 5px;
+       }
+
+       a{
+           text-decoration: none;
+           padding: 15px;
+           color: white;
+       }
+
+       .hover>a:hover{
+           color: black;
+           background-color: aquamarine; 
+           border-radius: 30px;
+           transition: width 2s;
+       }
+       .footer{
+           background-color: #7c94a4;
+           text-align: center;
+           justify-content: center;
+           justify-items: center;
+           align-items: center;
+           padding: 20px 0;
+          position: 0;
+       }
+       .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            text-align: center;
+            border-radius: 50px;
+            gap: 25px;
+       }
+   </style>
+</head>
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div>
+                <h2>IT GREEN</h2>
+            </div>
+            <div>
+                <nav>
+                    <a href="./home.html">Home</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="./gallery.html">Gallery</a>
+                 
+                   
+                </nav>
+            </div>
+        </div>
+    </header><br><br><br><br><br>
+    <main>
+        <div><h2>Our Gallery</h2></div><br><br>
+        <div class="container">
+            <div>
+                <img src="./img-electronicdevices/Microsoft's Phone Surface Solo 🤩⚡🔥(1).jpg" alt="" width="250px" height="250px" style="border-radius: 5px;">
+                <p>This is a recycled Iphone which has been repaired</p>
+            </div>
+            <div>
+                <img src="./img-electronicdevices/Minimalist Setup.jpg" alt="setup" width="250px" height="250px" style="border-radius: 5px;">
+                <p>This illustrates all IT that our company is focused on</p>
+            </div>
+            <div>
+                <img src="./img-electronicdevices/JBL Headphones.jpg" alt="" width="250px" height="250px" style="border-radius: 5px;">
+                <p>It deals also with headfone repaired and recycled.</p>
+            </div>
+            <div>
+                <img src="./img-electronicdevices/Top Phones for 2024.jpg" alt="nokia" height="250px" width="250px" style="border-radius: 5px;">
+                <p>All kinds of phones are being recycled.</p>
+            </div>
+        </div><br><br><br>
+    </main>
+    <footer>
+        <div class="footer"><br>
+            <p>&copy; LION COMPANY.</p><br>
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            
+        </div>
+    </footer><br><br>
+</body>
+</html>
